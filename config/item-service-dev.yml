@@ -1,6 +1,9 @@
 spring:
   application:
     name: item-service
+  cloud:
+    config:
+      override-none: true    #表示配置文件的端口不覆盖yml文件启动端口    
     
 server:  port: 8001
   
