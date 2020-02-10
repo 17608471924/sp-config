@@ -1,12 +1,12 @@
 sp:
   user-service:
-    users: "[{\"id\":7, \"username\":\"abc\",\"password\":\"123\"},{\"id\":8, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"},{\"id\":88, \"username\":\"aaa\",\"password\":\"111\"}]"
+    users: "[{\"id\":7, \"username\":\"abc\",\"password\":\"123\"},{\"id\":8, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"},{\"id\":99, \"username\":\"aaa\",\"password\":\"111\"}]"
 spring:
   application:
     name: user-service
   cloud:
     config:
-      override-none: true    #表示配置文件的端口不覆盖yml文件启动端口  
+      override-none: true    #表示配置文件的端口不覆盖yml文件启动端口  das
 server:  port: 8101
   
 eureka:
