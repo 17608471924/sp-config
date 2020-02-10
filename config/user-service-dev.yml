@@ -6,7 +6,7 @@ spring:
     name: user-service
   cloud:
     config:
-      override-none: true    #表示配置文件的端口不覆盖yml文件启动端口1
+      override-none: true    #表示配置文件的端口不覆盖yml文件启动端口122
 server:  port: 8101
   
 eureka:
